@@ -164,8 +164,8 @@ img {
   .container{
    display: flex;
    flex-direction: column;
-margin-top: 1000px;
-margin-bottom: 1000px;
+  margin-top: 1000px;
+margin-bottom: 1000px; 
   }
     .daniel, .jonathan, .jeanette, .kira, .patrick{
       margin-bottom: 15px;
@@ -174,10 +174,10 @@ margin-bottom: 1000px;
 
 @media (min-width: 321px) and (max-width: 768px){
   .container{
-   display: flex;
+  display: flex;
    flex-direction: column;
 margin-top: 700px;
-margin-bottom: 700px;
+margin-bottom: 700px; 
   }
   .daniel, .jonathan, .jeanette, .kira, .patrick{
     margin-bottom: 15px;
@@ -188,5 +188,5 @@ margin-bottom: 700px;
 
 
 
-.attribution { font-size: 11px; text-align: center; }
+.attribution { font-size: 11px; text-align: center; margin: 0 auto; }
  .attribution a { color: hsl(228, 45%, 44%); }
